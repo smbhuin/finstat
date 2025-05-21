@@ -1,0 +1,153 @@
+[
+    {
+        "id": "sbi_",
+        "bank": "State Bank of india",
+        "account_type": "savings",
+        "date_formats": ["dd MMM yyyy", "d MMMyyyy", "d MMM yyyy", "dd MMMyyyy"],
+        "locale": "en",
+        "start_line": "Description",
+        "end_line": "ur ATM, Debit/Credit card numbe",
+        "ignore_lines": ["Txn Date"],
+        "strategy": "lattice",
+        "record_top_aligned": true,
+        "area": [],
+        "columns": [35.0, 89.0, 141.0, 274.0, 353.3, 416.50, 480.0, 560.0],
+        "column_indices": {
+            "date": 0,
+            "narration": 2,
+            "ref": 3,
+            "debit": 4,
+            "credit": 5,
+            "balance": 6
+        }
+    },
+    {
+        "id": "pnbold_",
+        "bank": "Punjab National Bank",
+        "account_type": "savings",
+        "date_formats": ["dd/MM/yyyy"],
+        "locale": "en",
+        "start_line": "Instrument ID",
+        "end_line": "***Generated through PNB ONE***",
+        "ignore_lines": [],
+        "strategy": "stream",
+        "record_top_aligned": true,
+        "area": [34.0, 35.0, 796.0, 558.0],
+        "columns": [98.0, 165.0, 217.0, 248.0, 336.0],
+        "column_indices": {
+            "date": 0,
+            "narration": 5,
+            "ref": 1,
+            "amount": 2,
+            "type": 3,
+            "balance": 4
+        }
+    },
+    {
+        "id": "pnb_",
+        "bank": "Punjab National Bank",
+        "account_type": "savings",
+        "date_formats": ["dd/MM/yyyy"],
+        "locale": "en",
+        "start_line": "Date",
+        "end_line": "Unless onstituent",
+        "ignore_lines": [],
+        "strategy": "lattice",
+        "record_top_aligned": true,
+        "area": [20.0, 47.0, 1272.0, 1050.0],
+        "columns": [67.50, 272.0, 357.0, 396.50, 474.0, 552.0, 631.0],
+        "column_indices": {
+            "date": 0,
+            "narration": 5,
+            "ref": 1,
+            "debit": 2,
+            "credit": 3,
+            "balance": 4
+        }
+    },
+    {
+        "id": "ubi_",
+        "bank": "United Bank of India",
+        "account_type": "savings",
+        "date_formats": ["dd-MM-yyyy"],
+        "locale": "en",
+        "start_line": "Opening Balance",
+        "end_line": "Closing Balance",
+        "ignore_lines": ["DateParticulars"],
+        "strategy": "stream",
+        "record_top_aligned": true,
+        "area": [18.0, 19.0, 793.0, 578.0],
+        "columns": [70.0, 274.0, 358.0, 440.0, 518.0],
+        "column_indices": {
+            "date": 0,
+            "narration": 1,
+            "ref": 2,
+            "debit": 3,
+            "credit": 4,
+            "balance": 5
+        }
+    },
+    {
+        "id": "hdfc_",
+        "bank": "HDFC Bank",
+        "account_type": "savings",
+        "date_formats": ["dd/MM/yy"],
+        "locale": "en",
+        "start_line": "Narration",
+        "end_line": "STATEMENT SUMMARY",
+        "ignore_lines": [],
+        "strategy": "stream",
+        "record_top_aligned": true,
+        "area": [228.0, 26.0, 775.0, 631.0],
+        "columns": [67.50, 272.0, 357.0, 396.50, 474.0, 552.0],
+        "column_indices": {
+            "date": 0,
+            "narration": 1,
+            "ref": 2,
+            "debit": 4,
+            "credit": 5,
+            "balance": 6
+        }
+    },
+    {
+        "id": "axis_",
+        "bank": "Axis Bank",
+        "account_type": "savings",
+        "date_formats": ["dd-MM-yyyy"],
+        "locale": "en",
+        "start_line": "OPENING BALANCE",
+        "end_line": "TRANSACTION TOTAL",
+        "ignore_lines": [],
+        "strategy": "stream",
+        "record_top_aligned": false,
+        "area": [],
+        "columns": [85.0, 127.30, 318.40, 381.3, 444.0, 533.0],
+        "column_indices": {
+            "date": 0,
+            "narration": 2,
+            "ref": 1,
+            "debit": 3,
+            "credit": 4,
+            "balance": 5
+        }
+    },
+    {
+        "id": "hdfccc_",
+        "bank": "HDFC Credit Card",
+        "account_type": "credits",
+        "date_formats": ["dd/MM/yyyy"],
+        "locale": "en",
+        "start_line": "Transaction Description",
+        "end_line": "Fuel Points waiting for you",
+        "ignore_lines": ["Transaction Description", "Domestic Transactions"],
+        "strategy": "stream",
+        "record_top_aligned": false,
+        "area": [95.0, 30.0, 790.0, 580.0],
+        "columns": [100.0, 476.0],
+        "column_indices": {
+            "date": 0,
+            "narration": 1,
+            "amount": 2
+        }
+    }
+]

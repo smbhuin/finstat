@@ -1,0 +1,587 @@
+[
+  {
+    "id": "income",
+    "name": "Income from Business/Employment",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "imps",
+      "inb",
+      "neft",
+      "transfer",
+      "credit"
+    ],
+    "contents": [
+      "salary"
+    ]
+  },
+  {
+    "id": "gift",
+    "name": "Gifts from Friends and Family",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "credit"
+    ]
+  },
+  {
+    "id": "dividend",
+    "name": "Dividend Income",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "div",
+      "ach",
+      "c",
+      "credit"
+    ],
+    "contents": [
+      "ach c"
+    ]
+  },
+  {
+    "id": "savings_interest",
+    "name": "Savings Bank Interests",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "int",
+      "pd",
+      "interest",
+      "capitalised",
+      "credit"
+    ]
+  },
+  {
+    "id": "deposit_interest",
+    "name": "Fixed Deposit Interests",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "trf",
+      "int",
+      "io",
+      "monthly",
+      "interest",
+      "credit"
+    ]
+  },
+  {
+    "id": "deposit_booking",
+    "name": "Fixed Deposit Booking",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "trfr",
+      "trf",
+      "rd",
+      "fd",
+      "booked",
+      "funding",
+      "acc",
+      "td",
+      "fixed",
+      "tdr",
+      "stdr",
+      "debit"
+    ]
+  },
+  {
+    "id": "deposit_withdrawal",
+    "name": "Fixed Deposit Withdrawal",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "po",
+      "principal",
+      "auto",
+      "redeem",
+      "credit"
+    ]
+  },
+  {
+    "id": "subsidy",
+    "name": "Subsidy",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "apb",
+      "subsidy",
+      "bpcl",
+      "lpg",
+      "credit"
+    ]
+  },
+  {
+    "id": "equity_fund_deposit",
+    "name": "Equity Fund Deposit",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "zerodha",
+      "brokin",
+      "equity",
+      "brokingltd",
+      "zerodhabroking",
+      "zerodhaequity",
+      "debit"
+    ]
+  },
+  {
+    "id": "equity_fund_withdrawal",
+    "name": "Equity Fund Withdrawal",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "zerodha",
+      "brokin",
+      "equity",
+      "brokingltd",
+      "zerodhabroking",
+      "zerodhaequity",
+      "credit"
+    ]
+  },
+  {
+    "id": "mutual_fund",
+    "name": "Mutual Fund Investments",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "sbimf",
+      "sip",
+      "mf",
+      "achdr",
+      "nach",
+      "axismutual",
+      "mutualfundbill",
+      "sbimufupayment",
+      "mutual",
+      "fund",
+      "zerodhacoin",
+      "indianclearingcorpor",
+      "debit"
+    ]
+  },
+  {
+    "id": "pension_fund",
+    "name": "Pension Fund Investments",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "debit",
+      "apy",
+      "nps"
+    ],
+    "contents": [
+      "nps"
+    ]
+  },
+  {
+    "id": "provident_fund",
+    "name": "Provident Fund Investments",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "debit",
+      "ppf",
+      "epfo",
+      "provident"
+    ]
+  },
+  {
+    "id": "medical_insurance",
+    "name": "Medical Insurance",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "insurance",
+      "ergo",
+      "debit"
+    ]
+  },
+  {
+    "id": "life_insurance",
+    "name": "Life Insurance",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "lic",
+      "axslifeinsurance",
+      "lifeinsurance",
+      "usy",
+      "gpa",
+      "premium",
+      "debit"
+    ],
+    "contents": [
+      "licindia",
+      "life insurance"
+    ]
+  },
+  {
+    "id": "transport",
+    "name": "Transportation",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "techredbu1",
+      "techredbus",
+      "payuredbus",
+      "redbus",
+      "red",
+      "bus",
+      "olacabs",
+      "olacabs1",
+      "cleartrip",
+      "payugoibibo",
+      "sttransport",
+      "debit"
+    ]
+  },
+  {
+    "id": "rent",
+    "name": "House Rent",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "gift",
+      "relatives",
+      "friends",
+      "transfer",
+      "debit"
+    ]
+  },
+  {
+    "id": "entertainment",
+    "name": "Entertainment",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "hotstar",
+      "paytmdishtv",
+      "netflix",
+      "entertainment",
+      "bigtreeenter",
+      "payubookmyshow",
+      "bookmyshow",
+      "big",
+      "tree",
+      "bigtreeentertainmen",
+      "bookmyshow1",
+      "itunes",
+      "billitunes",
+      "debit"
+    ]
+  },
+  {
+    "id": "shopping",
+    "name": "Shopping",
+    "accounts": [
+      "savings",
+      "credits"
+    ],
+    "features": [
+      "spencer",
+      "spencers",
+      "lenskart",
+      "lenskar",
+      "zaakmobikwik",
+      "vishal",
+      "mega",
+      "mart",
+      "apollo",
+      "gleneagle",
+      "clini",
+      "apollogleneagles",
+      "big",
+      "bazaar",
+      "amazon",
+      "seller",
+      "am",
+      "amazonseller",
+      "amazonseller1",
+      "billdkamazonsellerse",
+      "apl",
+      "amazo",
+      "amazonpay",
+      "bigbask",
+      "bigbasket",
+      "white",
+      "blue",
+      "retai",
+      "bluere",
+      "blueretail",
+      "brand",
+      "factory",
+      "rel",
+      "retail",
+      "reliance",
+      "fresh",
+      "techflipkartpayments",
+      "flipkart",
+      "ccatataswachcom",
+      "paytm",
+      "paytmbillpaymentgovt",
+      "paytmwalletloading",
+      "paytmbundltechnologi",
+      "one97",
+      "communicat",
+      "ptm",
+      "bundltechnologies",
+      "payt",
+      "myntra",
+      "myntracom",
+      "goog",
+      "googlepay",
+      "rewarde",
+      "payzapp",
+      "wallet",
+      "medplus",
+      "1mg",
+      "pos",
+      "debit"
+    ]
+  },
+  {
+    "id": "food",
+    "name": "Food (Purchase/Home Delivery)",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "paytmswiggycom",
+      "payuswiggyin",
+      "razpswiggy",
+      "swiggy",
+      "swiggyupi",
+      "upiswiggy",
+      "barbeque",
+      "nation",
+      "kfc",
+      "fruits",
+      "debit"
+    ]
+  },
+  {
+    "id": "internet",
+    "name": "Internet and Mobile",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "ccapayabsalliancebr",
+      "paytmalliancebroadba",
+      "alliancebroadband",
+      "citrusairtel",
+      "ccaairtelinmoney",
+      "airtel",
+      "bhartiairtel",
+      "airtelmoney",
+      "payuairtelinmoney",
+      "airtelin",
+      "bharti",
+      "prepaid",
+      "bhartiairtellimite",
+      "bhartia",
+      "freecharge",
+      "vodafone",
+      "debit"
+    ]
+  },
+  {
+    "id": "electricity",
+    "name": "Electricity Payments",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "wbsedcl",
+      "wsedcl",
+      "debit"
+    ]
+  },
+  {
+    "id": "cooking_gas",
+    "name": "Cooking Gas",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "blpgcm",
+      "cylinder",
+      "onpaytmgas",
+      "debit"
+    ]
+  },
+  {
+    "id": "atm",
+    "name": "ATM Withdrawal",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "nwd",
+      "cwdr",
+      "atm",
+      "cash",
+      "par",
+      "eaw",
+      "debit"
+    ]
+  },
+  {
+    "id":"emi",
+    "name": "Equated Monthly Installment",
+    "accounts": [
+      "savings",
+      "credits"
+    ],
+    "features": [
+      "emi",
+      "smartemi",
+      "prin",
+      "nb",
+      "debit"
+    ]
+  },
+  {
+    "id":"emi_interest",
+    "name": "EMI Interest",
+    "accounts": [
+      "credits"
+    ],
+    "features": [
+      "emi",
+      "int",
+      "nbr",
+      "debit"
+    ]
+  },
+  {
+    "id": "charge",
+    "name": "Account Related Charges",
+    "accounts": [
+      "savings",
+      "credits"
+    ],
+    "features": [
+      "charges",
+      "Chrgs",
+      "fee",
+      "gst",
+      "charge",
+      "chrg",
+      "inst",
+      "chg",
+      "service",
+      "sms",
+      "instaalertchg",
+      "igst",
+      "dcc",
+      "debit"
+    ]
+  },
+  {
+    "id":"bill_payment",
+    "name": "Credit Card Bill Payment",
+    "accounts": [
+      "savings",
+      "credits"
+    ],
+    "features": [
+      "ib",
+      "billpay",
+      "pmt",
+      "tele",
+      "debit",
+      "credit"
+    ]
+  },
+  {
+    "id":"expense",
+    "name": "Other Expenses",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "transfer",
+      "upi",
+      "debit"
+    ]
+  },
+  {
+    "id": "tax_payment",
+    "name": "Income Tax Payment",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "cbdt",
+      "Central",
+      "board",
+      "direct",
+      "tax",
+      "ptax",
+      "debit"
+    ]
+  },
+  {
+    "id": "tax_refund",
+    "name": "Income Tax Refunded",
+    "accounts": [
+      "savings"
+    ],
+    "features": [
+      "bulk",
+      "posting",
+      "tax",
+      "refund",
+      "ay",
+      "credit"
+    ]
+  },
+  {
+    "id": "discarded",
+    "name": "Discarded/Ignored Transaction",
+    "accounts": [
+      "savings",
+      "credits"
+    ],
+    "features": [
+      "gift",
+      "transfer",
+      "self",
+      "p2a",
+      "imps",
+      "brn",
+      "flexi",
+      "sweep",
+      "closure",
+      "reg",
+      "adj",
+      "due",
+      "sweeps",
+      "credit",
+      "debit"
+    ]
+  }
+]
